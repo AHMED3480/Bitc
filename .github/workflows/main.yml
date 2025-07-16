@@ -4,7 +4,7 @@ import time
 BOT_TOKEN = '7712001826:AAHpjwSAvT1rE3R0QSShqaLuKE5ysDDBbvg'
 CHAT_ID = '6490602779'
 
-def get_bitcoin_price():
+def get_bitcoin_price()
     try:
         response = requests.get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
         price = response.json()['bitcoin']['usd']
